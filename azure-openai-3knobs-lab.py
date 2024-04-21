@@ -20,11 +20,11 @@ from datetime import datetime
 
 
 # KNOB 0: MODEL CHOICE (we do not have ability to alter the model in this lab)
-deployment = "tdih-gpt-35-turbo-instruct"
+deployment = "xxxxxxxxxxxxxxxxxxx" # get your deployment environment from azure
 client = AzureOpenAI(
-   api_key="a6b9fb31a1e741d394bb101a93d68ac6",
+   api_key="xxxxxxxxxxxxxxxxxxxx", # get the azure-openai api key
    api_version="2024-02-01",
-   azure_endpoint = "https://tdih.openai.azure.com/"
+   azure_endpoint = "xxxxxxxxxxxxxxxxxx" #get the azure end point assigned to you
 )
 import datetime
 print("\n----------------- DEBUG INFO -----------------")
